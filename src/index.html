@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Daily Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/styles/journal.css" />
+    
+</head>
+<body>
+    <h1>My NSS Journal</h1>
+    <form action="">
+        <fieldset>
+            <label for="journalDate">Date</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+        
+        <fieldset>
+            <label for="conceptsCovered">New Concepts</label>
+            <textarea name="conceptsCovered" id="conceptsCovered"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <label for="journalEntry">What happened today?</label>
+            <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="moodForTheDay">The Mood</label>
+            <select name="moodForTheDay" id="moodForTheDay">
+                <option name="Shakey">Shakey</option>
+                <option name="Firm">Firm</option>
+                <option name="Solid">Solid</option>
+            </select>
+        </fieldset>
+
+        <!-- <fieldset> 
+            <label for="recordJournalEntry">Record Entry</label>
+            <option value="recordJournalEntry"></option>
+        </fieldset> -->
+        <button>Record Journal Entry</button>
+
+    </form>
+</body>
+</html>
